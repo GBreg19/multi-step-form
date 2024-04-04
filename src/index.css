@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: hsl(229, 24%, 87%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+@font-face {
+  font-family: "UbuntuReg";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/Ubuntu-Regular.ttf");
+  unicode-range: U+20-24F, U+370-52F, U+2DE0-2DFF, U+A640-A69F, U+1C80-1C8F,
+    U+600-6FF, U+750-77F, U+8A0-8FF, U+B50-DFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "UbuntuMed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/fonts/Ubuntu-Medium.ttf");
+  unicode-range: U+20-24F, U+370-52F, U+2DE0-2DFF, U+A640-A69F, U+1C80-1C8F,
+    U+600-6FF, U+750-77F, U+8A0-8FF, U+B50-DFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "UbuntuBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/Ubuntu-Bold.ttf");
+  unicode-range: U+20-24F, U+370-52F, U+2DE0-2DFF, U+A640-A69F, U+1C80-1C8F,
+    U+600-6FF, U+750-77F, U+8A0-8FF, U+B50-DFF, U+FE70-FEFF;
+}
